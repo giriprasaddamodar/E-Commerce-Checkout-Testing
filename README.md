@@ -35,11 +35,6 @@ Test Case,	Steps & 	Expected Result
    Selenium & Java Automation Code (Basic Example)
 
 
-public class ECommerceCheckoutTest {
-    public static void main(String[] args) {
-        // Set up WebDriver
-        System.setProperty("webdriver.chrome.driver", "path_to_chromedriver");
-        WebDriver driver = new ChromeDriver();
 
         // Navigate to e-commerce site (e.g., Flipkart)
         driver.get("https://www.flipkart.com");
