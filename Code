@@ -1,0 +1,36 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class ECommerceCheckoutTest {
+    public static void main(String[] args) {
+        // Set up WebDriver
+        System.setProperty("webdriver.chrome.driver", "path_to_chromedriver");
+        WebDriver driver = new ChromeDriver();
+
+        // Navigate to e-commerce site (e.g., Flipkart)
+        driver.get("https://www.flipkart.com");
+
+        // Select item and add to cart
+        WebElement searchBox = driver.findElement(By.name("q"));
+        searchBox.sendKeys("Laptop");
+        searchBox.submit();
+        
+        WebElement addToCart = driver.findElement(By.xpath("//button[text()='Add to Cart']"));
+        addToCart.click();
+
+        // Proceed to checkout
+        WebElement checkout = driver.findElement(By.xpath("//button[text()='Buy Now']"));
+        checkout.click();
+
+        // Validate order summary
+        WebElement orderSummary = driver.findElement(By.id("order-summary"));
+        if (orderSummary.isDisplayed()) {
+            System.out.println("Order successfully placed!");
+        }
+
+        // Close browser
+        driver.quit();
+    }
+}
