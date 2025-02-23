@@ -34,10 +34,6 @@ Test Case,	Steps & 	Expected Result
 
    Selenium & Java Automation Code (Basic Example)
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 
 public class ECommerceCheckoutTest {
     public static void main(String[] args) {
@@ -67,7 +63,7 @@ public class ECommerceCheckoutTest {
         }
 
         // Close browser
-        driver.quit(); } }
+        driver.quit(); 
 
 5. Deployment and Integration
 Use Jenkins for CI/CD to run tests automatically after code changes.
