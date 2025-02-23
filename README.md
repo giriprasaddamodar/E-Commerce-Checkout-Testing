@@ -68,7 +68,7 @@ public class ECommerceCheckoutTest {
 
         // Close browser
         driver.quit();
-    }
+}
 }
 
 5. Deployment and Integration
