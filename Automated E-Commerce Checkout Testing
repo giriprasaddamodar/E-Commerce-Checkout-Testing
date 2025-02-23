@@ -1,0 +1,109 @@
+
+
+1. Introduction
+E-commerce platforms require robust testing to ensure smooth functionality, especially in critical areas such as cart operations and checkout. This project implements automated testing for item addition, checkout flow, and order validation using Selenium, JIRA, and Java. The goal is to enhance quality assurance while streamlining the testing process with DevOps methodologies.
+
+2. Objectives
+
+To automate the testing of e-commerce cart functionalities.
+
+To validate the checkout process and order summary.
+
+To implement Agile testing strategies using Scrum and Kanban.
+
+To ensure efficient defect tracking and resolution using JIRA.
+
+3. Technologies Used
+
+Selenium WebDriver: For UI test automation.
+
+Java (Basic OOP Concepts): For writing test scripts.
+
+JIRA: For bug tracking and task management.
+
+TestNG: For test execution and reporting.
+
+Scrum & Kanban: For Agile test management.
+
+GitHub/Jenkins: For CI/CD pipeline integration.
+
+4. Methodology
+
+Project Setup in JIRA:
+
+Create a project board in JIRA.
+
+Define user stories and testing tasks.
+
+Assign team roles and responsibilities.
+
+Test Planning:
+
+Define detailed test scenarios for cart functionality and checkout flow.
+
+Set up sprint cycles using Scrum methodology.
+
+Use Kanban board to track progress.
+
+Test Development:
+
+Implement Selenium scripts in Java to automate UI interactions.
+
+Write test cases using TestNG.
+
+Store test scripts in a version-controlled Git repository.
+
+Test Execution & CI/CD Integration:
+
+Execute test cases via TestNG.
+
+Log defects in JIRA with detailed bug reports.
+
+Automate test execution with Jenkins pipelines.
+
+Bug Tracking & Resolution:
+
+Use JIRA to track defects and assign them to developers.
+
+Implement test re-runs for resolved issues.
+
+Maintain sprint retrospectives for continuous improvement.
+
+5. Features Tested
+
+Item Addition to Cart: Ensure correct product selection and quantity.
+
+Checkout Flow: Validate payment gateway and user details.
+
+Order Summary Validation: Confirm pricing, taxes, and applied discounts.
+
+Error Handling: Identify and fix UI and functionality bugs.
+
+Regression Testing: Verify no breakage after bug fixes.
+
+
+6. Results & Benefits
+
+Enhanced test coverage through automation.
+
+Reduced manual effort and faster execution cycles.
+
+Improved tracking and defect resolution using JIRA.
+
+Agile-driven iterative improvements using Scrum and Kanban.
+
+Continuous testing using Jenkins ensures software stability.
+
+7. Conclusion
+This project demonstrates the effectiveness of automated testing in e-commerce platforms. Using Selenium, Java, and JIRA, we successfully automated key functionalities like cart operations and checkout flow, ensuring a seamless user experience. Agile methodologies like Scrum and Kanban further optimized testing efficiency, and CI/CD integration streamlined deployment processes.
+
+8. Future Enhancements
+
+Expand test coverage for mobile devices.
+
+Integrate performance testing using JMeter.
+
+Implement AI-based test case generation.
+
+Further optimize automation with cloud-based testing tools.
+
