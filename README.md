@@ -68,8 +68,6 @@ public class ECommerceCheckoutTest {
 
         // Close browser
         driver.quit();
-}
-}
 
 5. Deployment and Integration
 Use Jenkins for CI/CD to run tests automatically after code changes.
