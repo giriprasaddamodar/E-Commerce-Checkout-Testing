@@ -10,23 +10,27 @@ Kanban: If your workflow is continuous (e.g., ongoing bug fixes and feature enha
 2. JIRA Workflow (Kanban Example)
 Columns in JIRA Board:
 
-Backlog: List of pending tasks
-To Do: Tasks selected for execution
-In Progress: Tasks currently being worked on
-Testing: Verification phase
-Done: Completed and validated tasks
+* Backlog: List of pending tasks
+* To Do: Tasks selected for execution
+* In Progress: Tasks currently being worked on
+* Testing: Verification phase
+* Done: Completed and validated tasks
 
 3. JIRA User Stories & Tasks (Example)
 User Stories & Tasks
-As a user, I want to add an item to my cart.	TASK - Automate item addition using Selenium.
-As a user, I want to proceed to checkout.	 TASK - Automate cart validation and checkout flow.
-As a user, I want my order details validated. TASK -	Automate order confirmation and summary validation.
+* As a user, I want to add an item to my cart.	TASK - Automate item addition using Selenium.
+  
+* As a user, I want to proceed to checkout.	 TASK - Automate cart validation and checkout flow.
+  
+* As a user, I want my order details validated. TASK -	Automate order confirmation and summary validation.
 
 4. Test Cases (Example)
 Test Case,	Steps & 	Expected Result
-TEST CASE - Add item to cart	STEP - Select item, click "Add to Cart"	 RESULT - Item appears in cart
-TEST CASE - Checkout process STEP - 	Click "Buy Now", enter details	RESULT - User proceeds to payment
-TEST CASE - Order confirmation	STEP - Validate order summary	RESULT - Order placed successfully
+* TEST CASE - Add item to cart	STEP - Select item, click "Add to Cart"	 RESULT - Item appears in cart
+  
+* TEST CASE - Checkout process STEP - 	Click "Buy Now", enter details	RESULT - User proceeds to payment
+  
+* TEST CASE - Order confirmation	STEP - Validate order summary	RESULT - Order placed successfully
 
    Selenium & Java Automation Code (Basic Example)
 
