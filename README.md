@@ -22,3 +22,6 @@ If login fails or button is inactive, it's reported in `bug-report.txt`.
 
 ## 📋 Scrum Plan
 See `kanban-scrum-plan.txt` for 3-day sprint and task tracking.
+
+
+![image](https://github.com/user-attachments/assets/cba83292-f7bb-4d6b-8e8e-794f3019dcb8)
