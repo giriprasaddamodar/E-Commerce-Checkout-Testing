@@ -1,0 +1,17 @@
+Scrum Plan:
+
+Day 1:
+- Set up Selenium
+- Launch browser and open Flipkart
+
+Day 2:
+- Automate login flow (input + click)
+
+Day 3:
+- Report one bug in JIRA
+- Document test steps and status
+
+Kanban Board:
+
+To Do         → In Progress       → Done
+Login Setup     Automate Input      Bug Report Logged
