@@ -1,0 +1,12 @@
+Bug Title: Login button not working
+
+Steps to Reproduce:
+1. Go to Flipkart
+2. Enter mobile number and password
+3. Click Login
+
+Expected: Login should proceed
+Actual: Button does not respond
+
+Status: Reported
+Tool: JIRA
